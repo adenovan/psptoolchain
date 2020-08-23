@@ -15,7 +15,7 @@
 
  ## Download the library source code if it does not already exist.
  download_and_extract http://gmplib.org/download/gmp/gmp-$GMP_VERSION.tar.bz2 gmp-$GMP_VERSION
- download_and_extract ftp://ftp.gnu.org/gnu/mpc-$MPC_VERSION.tar.gz mpc-$MPC_VERSION
+ download_and_extract https://ftp.gnu.org/gnu/mpc/mpc-$MPC_VERSION.tar.gz mpc-$MPC_VERSION
  download_and_extract http://www.mpfr.org/mpfr-$MPFR_VERSION/mpfr-$MPFR_VERSION.tar.bz2 mpfr-$MPFR_VERSION
 
  ## Enter the source directory and patch the source code.
